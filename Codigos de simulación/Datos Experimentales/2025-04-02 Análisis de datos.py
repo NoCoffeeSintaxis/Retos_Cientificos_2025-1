@@ -79,6 +79,6 @@ dy_points = curve_interpolator(dx_points)
 
 # Imprimir la lista completa de puntos corregidos
 corrected_points = list(zip(dx_points, dy_points))
-print("\n📋 Lista de puntos corregidos cada 0.5 cm:\n")
+print("\n Lista de puntos corregidos cada 0.5 cm:\n")
 for point in corrected_points:
     print(f"x = {point[0]:.1f} cm, y = {point[1]:.2f} cm")
